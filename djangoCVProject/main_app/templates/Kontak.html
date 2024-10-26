@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my website</title>
+    <link rel="stylesheet" href="{% static 'home/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'home' %}">Fajari Arkan</a>
+        <div class="nav-links">
+            <a class="navbar-item" href="{% url 'home' %}">Home</a>
+            <a class="navbar-item" href="{% url 'Pendidikan' %}">Pendidikan</a>
+            <a class="navbar-item" href="{% url 'PengalamanKerja' %}">Pengalaman Kerja</a>
+            <a class="navbar-item shown" href="{% url 'Kontak' %}">Kontak</a>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <h1>Fajari Arkan Fadhlurrahman</h1>
+    <h3>Mahasiswa dengan banyak pengalaman mulai dari Praktik Kerja Lapangan di Klinik Kesehatan Universitas
+        Padjajaran hingga di dunia Industri makanan dan minuman. Memiliki passion di bidang Teknologi Informasi,
+        pendidikan dan game development.
+    </h3>
+
+    <div class="items" style="display: flex;">
+        <img src="{% static 'img/9.avif' %}" alt="" style="height: 200px; display: block; margin: auto;">
+        <div style="display: block; margin: auto;">
+            <h2>Kontak</h2>
+
+            <li>Email : fajariarkan@gmail.com</li>
+            <li>Telepon : +62 895-2467-0977</li>
+            <li>Instagram : <a href="https://www.instagram.com/arkann05_">@arkann05_</a></li>
+            <li>Linkedin : <a href="https://www.linkedin.com/in/fajari-arkan-26968621a/">Fajari Arkan</a> </li>
+            <li>Github : <a href="https://github.com/fajar-i">fajar-i</a> </li>
+        </div>
+    </div>
+
+</body>
+
+</html>
