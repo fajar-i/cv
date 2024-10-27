@@ -1,6 +1,5 @@
 Berikut adalah contoh struktur `README.md` untuk proyek Django Anda. Anda dapat menyesuaikan detail sesuai kebutuhan proyek Anda.
 
-```markdown
 # Nama Proyek
 
 Deskripsi singkat tentang proyek Anda dan tujuannya.
