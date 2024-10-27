@@ -2,9 +2,9 @@
 
 project tugas pemrograman internet 
 
-## Fajari Arkan Fadhlurrahman
+## Tampilan website
 
-Mahasiswa dengan banyak pengalaman mulai dari Praktik Kerja Lapangan di Klinik Kesehatan Universitas Padjajaran hingga di dunia Industri makanan dan minuman. Memiliki passion di bidang Teknologi Informasi, pendidikan dan game development. 
+![gambar](djangoCVProject/main_app/static/img/home.png)
 
 ## Daftar Isi
 
