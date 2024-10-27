@@ -5,8 +5,8 @@ project tugas pemrograman internet
 ## Tampilan website
 
 ![gambar](djangoCVProject/main_app/static/img/home.png)
-![gambar](djangoCVProject/main_app/static/img/home.gif)
 
+![gambar](djangoCVProject/main_app/static/img/home.gif)
 ## Daftar Isi
 
 - Home
