@@ -1,36 +1,23 @@
-Berikut adalah contoh struktur `README.md` untuk proyek Django Anda. Anda dapat menyesuaikan detail sesuai kebutuhan proyek Anda.
+# Curriculum Vitae with Django
 
-# Nama Proyek
+project tugas pemrograman internet 
 
-Deskripsi singkat tentang proyek Anda dan tujuannya.
+## Fajari Arkan Fadhlurrahman
+
+Mahasiswa dengan banyak pengalaman mulai dari Praktik Kerja Lapangan di Klinik Kesehatan Universitas Padjajaran hingga di dunia Industri makanan dan minuman. Memiliki passion di bidang Teknologi Informasi, pendidikan dan game development. 
 
 ## Daftar Isi
 
-- [Tentang](#tentang)
-- [Fitur](#fitur)
-- [Prasyarat](#prasyarat)
-- [Instalasi](#instalasi)
-- [Penggunaan](#penggunaan)
-- [Kontribusi](#kontribusi)
-- [Lisensi](#lisensi)
+- Home
+- Pendidikan
+- Pengalaman Kerja
+- Kontak
 
-## Tentang
-
-Berikan penjelasan lebih mendalam tentang proyek Anda, apa yang ingin dicapai, dan mengapa proyek ini penting.
-
-## Fitur
-
-- Fitur 1
-- Fitur 2
-- Fitur 3
-- ...
-
-## Prasyarat
-
-Sebutkan perangkat lunak atau pustaka yang perlu diinstal sebelum menjalankan proyek. Contoh:
+## Requirement
 
 - Python 3.x
 - Django
+- Python virtual environment
 - MySQL atau database lain yang digunakan
 
 ## Instalasi
@@ -39,11 +26,11 @@ Langkah-langkah untuk menginstal dan menjalankan proyek:
 
 1. **Clone repositori ini:**
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/fajar-i/cv.git
    ```
 2. **Masuk ke direktori proyek:**
    ```bash
-   cd repo-name
+   cd cv/djangoCVProject
    ```
 3. **Buat lingkungan virtual:**
    ```bash
@@ -58,36 +45,14 @@ Langkah-langkah untuk menginstal dan menjalankan proyek:
      ```bash
      source venv/bin/activate
      ```
-5. **Instal dependensi:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-6. **Konfigurasi database:**
-   - Sesuaikan pengaturan database di `settings.py`.
-   - Jalankan migrasi:
-     ```bash
-     python manage.py migrate
-     ```
-7. **Jalankan server:**
+5. **Jalankan server:**
    ```bash
    python manage.py runserver
    ```
 
 ## Penggunaan
 
-Panduan cara menggunakan aplikasi Anda setelah dijalankan. Misalnya, menjelaskan endpoint API, cara mendaftar, atau fitur utama.
-
-## Kontribusi
-
-Jika Anda ingin menerima kontribusi, berikan petunjuk tentang bagaimana orang lain dapat berkontribusi. Misalnya, membuat fork repositori, membuat cabang baru, dan membuat pull request.
-
-## Lisensi
-
-Sebutkan jenis lisensi yang digunakan untuk proyek ini, misalnya MIT, GPL, atau lisensi lainnya.
-
+Buka browser dan masukkan
+```bash
+http://127.0.0.1:8000/
 ```
-
-### Tips
-- Ganti placeholder (seperti `username` dan `repo-name`) dengan informasi yang sesuai untuk proyek Anda.
-- Tambahkan detail lebih lanjut jika ada fitur khusus atau langkah-langkah unik yang perlu diketahui pengguna.
-- Pastikan untuk menjaga format Markdown yang bersih agar mudah dibaca.
